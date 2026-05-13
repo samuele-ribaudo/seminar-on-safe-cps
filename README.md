@@ -1,5 +1,6 @@
 # Schedule-Based Cyber Attacks
 
+## Introduction
 The security of the real-time embedded systems, due to the increasing connectivity (e.g., Internet of Things), is now more important than ever before. One of the most notable examples of exploiting the security holes in this kind of systems is the remote hijacking of a Jeep’s digital system that led Chrysler to recall 1.4 million vehicles (https://www.bbc.com/news/technology-33650491). The real- time systems are designed to enforce the deterministic runtime behavior: they execute the tasks in a specific order that guarantees the reaction time to external events within strict time limits. Schedule- based attacks exploit the information about the tasks execution order to trigger the attacks at the precise moments of targeted task execution. For instance, a cache-timing attack is more efficient if executed right before and right after the targeted task when its data still stays in the cache. Also, the denial-of-service attacks can be more harmful and more difficult to detect when the victim execution time window is directly targeted. The purpose of this literature review is to identify the threats that are posed to the cyber-physical systems and summarize the existing countermeasures.
 
 **References:**
@@ -18,24 +19,33 @@ The security of the real-time embedded systems, due to the increasing connectivi
 
 
 ## Approach: Evolutionary Timeline of CPS Security
-Our research explores the security of Real-Time Systems (RTS) by analyzing the arms race between **Schedule-Based Attacks** and their corresponding **Countermeasures**. We organize our literature review into three technical eras:
-### 1. The Foundations (Pre-2020)
- * **Focus**: Establishing that real-time predictability is a fundamental security vulnerability.
- * **Key Milestones**: Discovery of "ScheduLeak" and the proof that fixed-priority scheduling allows for precise timing inference.
- * **Early Defenses**: Initial introduction of schedule randomization (e.g., *TaskShuffler*) and hardware-level cache partitioning.
-### 2. Connectivity & Modern Platforms (2020–2023)
- * **Focus**: The transition from isolated controllers to Connected IoT and Multicore systems.
- * **Key Milestones**: Expansion of attacks to dynamic priority systems (EDF) and network-level timing in Time-Sensitive Networking (TSN).
- * **Advanced Defenses**: Development of hybrid cache protections and cross-layer isolation to mitigate side-channels in shared resources.
-### 3. Integrated & Future Systems (2024–Present)
- * **Focus**: Security in "Software-Defined" architectures and autonomous systems.
- * **Key Milestones**: Use of Digital Twins for threat injection and critiques of early randomization pitfalls.
- * **Emerging Defenses**: Shift toward "Zero-Trust" RTOS architectures and low-leakage dynamic partitioning.
+Our research analyzes the technical "Arms Race" between Schedule-Based Attacks and their corresponding Countermeasures in Real-Time Systems (RTS). We categorize the co-evolution of these technologies into three eras:
+
+### 1.⁠ ⁠The Foundations of Predictability
+**The Concept:** Real-time determinism—traditionally a safety requirement—is identified as a fundamental security flaw that enables precise timing inference.
+
+**The Conflict:** Early research proved that observing resource availability allows an adversary to reconstruct execution schedules.
+
+**Initial Defenses:** Focus on Obfuscation (shuffling task order to create timing noise) and Hardware Partitioning (isolating cache resources to prevent cross-domain leaks).
+
+### 2.⁠ ⁠Multi-Core Complexity & Network Exposure
+**The Concept:** The shift toward high-performance multicore platforms and connected IoT expanded the attack surface to shared microarchitectural resources.
+
+**The Conflict:** The introduction of shared caches, interconnects, and speculative execution logic created hardware "shortcuts" that leak data faster than software randomization can hide it.
+
+**Advanced Defenses:** Development of Architectural Hardening, utilizing scalable isolation and cross-layer frameworks to protect shared resources without compromising real-time performance.
+
+### 3.⁠ ⁠Attack-Aware Resilience & Control Stability
+**The Concept:** Recognition that absolute secrecy is often unattainable in deterministic systems; focus shifts from hiding data to ensuring physical survival.
+
+**The Conflict:** Sophisticated algorithms can now "see through" blind randomization, while new attacks target the communication backbone (e.g., CAN, TSN) to cause physical failure through timing sabotage.
+
+**Emerging Defenses:** A move toward Attack-Aware Design. Modern frameworks sense potential interference and adjust timing dynamically to prioritize Closed-Loop Resilience—ensuring the system’s physical stability and safety-critical deadlines remain guaranteed even during an active attack.
 
 
 
-## Attack side
-### Papers
+## Papers
+### Attack side
 [1] Chien-Ying Chen, Rakesh B Bobba, and Sibin Mohan. “Schedule-based side-channel attack in fixedpriority real-time systems”, 2015
 
 [2] Fangfei Zhou, Manish Goel, Peter Desnoyers, Ravi Sundaram, "Scheduler Vulnerabilities and Coordinated Attacks in Cloud Computing", IEEE 10th International Symposium on Network Computing and Applications, Cambridge, MA, USA, 10 October 2011.
@@ -56,10 +66,7 @@ Our research explores the security of Real-Time Systems (RTS) by analyzing the a
 
 [10] N. S. Bülbül and M. Fischer, "Preemptive DoS attacks on Time Sensitive Networks," GLOBECOM 2023 - 2023 IEEE Global Communications Conference, Kuala Lumpur, Malaysia, 2023.
 
-
-
-## Defense side
-### Papers
+### Defense side
 [1] M. -K. Yoon, S. Mohan, C. -Y. Chen and L. Sha, "TaskShuffler: A Schedule Randomization Protocol for Obfuscation against Timing Inference Attacks in Real-Time Systems," 2016 IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), Vienna, Austria, 2016.
 
 [2] Mengjia Yan, Bhargava Gopireddy, Thomas Shull, and Josep Torrellas. 2017. Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Atacks. In Proceedings of the 44th Annual International Symposium on Computer Architecture (ISCA '17). Association for Computing Machinery, New York, NY, USA, 347–360.
