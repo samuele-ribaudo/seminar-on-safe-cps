@@ -15,3 +15,24 @@ The security of the real-time embedded systems, due to the increasing connectivi
 [5] V. Kiriansky, I. Lebedev, S. Amarasinghe, S. Devadas and J. Emer, "DAWG: A Defense Against Cache Timing Attacks in Speculative Execution Processors," 2018 51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), Fukuoka, 2018
 
 **Supervisor**: Alex Züpke (alex.zuepke@tum.de3)
+
+
+
+# Attack side
+## Papers
+[1] ????: Chien-Ying Chen, AmirEmad Ghassami, Stefan Nagy,  Man-Ki Yoon, Sibin Mohan, Negar Kiyavash, Rakesh B. Bobba, Rodolfo Pellizzoni,"Schedule-Based Side-Channel Attack in Fixed-Priority Real-time Systems", 2015 - https://www.semanticscholar.org/paper/Schedule-Based-Side-Channel-Attack-in-Real-time-Chen-Ghassami/01435cca86bed7113a9653161dbb562b66954406#citing-papers
+
+[2] Conference: Fangfei Zhou, Manish Goel, Peter Desnoyers, Ravi Sundaram, "Scheduler Vulnerabilities and Coordinated Attacks in Cloud Computing", IEEE 10th International Symposium on Network Computing and Applications, Cambridge, MA, USA, 10 October 2011.
+
+[3] Conference: Chien-Ying Chen, M. Hasan, Sibin Mohan, "Securing Real-Time Internet-of-Things", Italian National Conference on Sensors, 2017
+
+[4] Conference:  Chien-Ying Chen, Sibin Mohan, Rodolfo Pellizzoni, Rakesh B. Bobba, Negar Kiyavash, "A Novel Side-Channel in Real-Time Schedulers", IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS),  Montreal, QC, Canada, 16-18 April 2019.
+
+[5] 
+
+
+[7] Conference: Mitra Nasri, Thidapat Chantem, Gedare Bloom, Ryan M. Gerde,"On the Pitfalls and Vulnerabilities of Schedule Randomization Against Schedule-Based Attacks", IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS),  Montreal, QC, Canada, 16-18 April 2019.
+
+
+# Defense side
+## Papers
