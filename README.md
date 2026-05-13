@@ -18,8 +18,8 @@ The security of the real-time embedded systems, due to the increasing connectivi
 
 
 
-# Attack side
-## Papers
+## Attack side
+### Papers
 [1] Chien-Ying Chen, Rakesh B Bobba, and Sibin Mohan. “Schedule-based side-channel attack in fixedpriority real-time systems”, 2015
 
 [2] Fangfei Zhou, Manish Goel, Peter Desnoyers, Ravi Sundaram, "Scheduler Vulnerabilities and Coordinated Attacks in Cloud Computing", IEEE 10th International Symposium on Network Computing and Applications, Cambridge, MA, USA, 10 October 2011.
@@ -40,9 +40,8 @@ The security of the real-time embedded systems, due to the increasing connectivi
 
 
 
-
-# Defense side
-## Papers
+## Defense side
+### Papers
 [1] M. -K. Yoon, S. Mohan, C. -Y. Chen and L. Sha, "TaskShuffler: A Schedule Randomization Protocol for Obfuscation against Timing Inference Attacks in Real-Time Systems," 2016 IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), Vienna, Austria, 2016.
 
 [2] Mengjia Yan, Bhargava Gopireddy, Thomas Shull, and Josep Torrellas. 2017. Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Atacks. In Proceedings of the 44th Annual International Symposium on Computer Architecture (ISCA '17). Association for Computing Machinery, New York, NY, USA, 347–360.
