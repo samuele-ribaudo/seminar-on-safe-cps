@@ -24,19 +24,21 @@ The security of the real-time embedded systems, due to the increasing connectivi
 
 [2] Fangfei Zhou, Manish Goel, Peter Desnoyers, Ravi Sundaram, "Scheduler Vulnerabilities and Coordinated Attacks in Cloud Computing", IEEE 10th International Symposium on Network Computing and Applications, Cambridge, MA, USA, 10 October 2011.
 
-[3] P. Kocher et al., "Spectre Attacks: Exploiting Speculative Execution," 2019 IEEE Symposium on Security and Privacy (SP), San Francisco, CA, USA, 2019.
+[3] Chen, Chien-Ying, Monowar Hasan, and Sibin Mohan. “Securing Real-Time Internet-of-Things.” Sensors 18.12 (2018)
 
-[4] Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher, Werner Haas, Jann Horn, Stefan Mangard, Paul Kocher, Daniel Genkin, Yuval Yarom, Mike Hamburg, and Raoul Strackx. 2020. Meltdown: reading kernel memory from user space. Commun. ACM 63, 6 (June 2020), 46–56.
+[4] P. Kocher et al., "Spectre Attacks: Exploiting Speculative Execution," 2019 IEEE Symposium on Security and Privacy (SP), San Francisco, CA, USA, 2019.
 
-[5] Daniel Moghimi, Jo Van Bulck, Nadia Heninger, Frank Piessens, and Berk Sunar. 2020. COPYCAT: controlled instruction-level attacks on enclaves. In Proceedings of the 29th USENIX Conference on Security Symposium (SEC'20). USENIX Association, USA, Article 27, 469–486.
+[5] Moritz Lipp, Michael Schwarz, Daniel Gruss, Thomas Prescher, Werner Haas, Jann Horn, Stefan Mangard, Paul Kocher, Daniel Genkin, Yuval Yarom, Mike Hamburg, and Raoul Strackx. 2020. Meltdown: reading kernel memory from user space. Commun. ACM 63, 6 (June 2020), 46–56.
 
-[6] C. -Y. Chen, S. Mohan, R. Pellizzoni, R. B. Bobba and N. Kiyavash, "A Novel Side-Channel in Real-Time Schedulers," 2019 IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), Montreal, QC, Canada, 2019
+[6] Daniel Moghimi, Jo Van Bulck, Nadia Heninger, Frank Piessens, and Berk Sunar. 2020. COPYCAT: controlled instruction-level attacks on enclaves. In Proceedings of the 29th USENIX Conference on Security Symposium (SEC'20). USENIX Association, USA, Article 27, 469–486.
 
-[7] Conference: Mitra Nasri, Thidapat Chantem, Gedare Bloom, Ryan M. Gerde,"On the Pitfalls and Vulnerabilities of Schedule Randomization Against Schedule-Based Attacks", IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS),  Montreal, QC, Canada, 16-18 April 2019.
+[7] C. -Y. Chen, S. Mohan, R. Pellizzoni, R. B. Bobba and N. Kiyavash, "A Novel Side-Channel in Real-Time Schedulers," 2019 IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), Montreal, QC, Canada, 2019
 
-[8] S. Hounsinou, M. Stidd, U. Ezeobi, H. Olufowobi, M. Nasri and G. Bloom, "Vulnerability of Controller Area Network to Schedule-Based Attacks," 2021 IEEE Real-Time Systems Symposium (RTSS), Dortmund, DE, 2021.
+[8] Conference: Mitra Nasri, Thidapat Chantem, Gedare Bloom, Ryan M. Gerde,"On the Pitfalls and Vulnerabilities of Schedule Randomization Against Schedule-Based Attacks", IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS),  Montreal, QC, Canada, 16-18 April 2019.
 
-[9] N. S. Bülbül and M. Fischer, "Preemptive DoS attacks on Time Sensitive Networks," GLOBECOM 2023 - 2023 IEEE Global Communications Conference, Kuala Lumpur, Malaysia, 2023.
+[9] S. Hounsinou, M. Stidd, U. Ezeobi, H. Olufowobi, M. Nasri and G. Bloom, "Vulnerability of Controller Area Network to Schedule-Based Attacks," 2021 IEEE Real-Time Systems Symposium (RTSS), Dortmund, DE, 2021.
+
+[10] N. S. Bülbül and M. Fischer, "Preemptive DoS attacks on Time Sensitive Networks," GLOBECOM 2023 - 2023 IEEE Global Communications Conference, Kuala Lumpur, Malaysia, 2023.
 
 
 
