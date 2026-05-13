@@ -36,3 +36,24 @@ The security of the real-time embedded systems, due to the increasing connectivi
 
 # Defense side
 ## Papers
+[1] M. -K. Yoon, S. Mohan, C. -Y. Chen and L. Sha, "TaskShuffler: A Schedule Randomization Protocol for Obfuscation against Timing Inference Attacks in Real-Time Systems," 2016 IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), Vienna, Austria, 2016, pp. 1-12, doi: 10.1109/RTAS.2016.7461362. 
+
+[2] Mengjia Yan, Bhargava Gopireddy, Thomas Shull, and Josep Torrellas. 2017. Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Atacks. In Proceedings of the 44th Annual International Symposium on Computer Architecture (ISCA '17). Association for Computing Machinery, New York, NY, USA, 347–360.
+
+[3] V. Kiriansky, I. Lebedev, S. Amarasinghe, S. Devadas and J. Emer, "DAWG: A Defense Against Cache Timing Attacks in Speculative Execution Processors," 2018 51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), Fukuoka, Japan, 2018, pp. 974-987, doi: 10.1109/MICRO.2018.00083.
+
+[4] Ankita Samaddar, Arvind Easwaran, and Rui Tan. 2020. SlotSwapper: a schedule randomization protocol for real-time WirelessHART networks. SIGBED Rev. 16, 4 (December 2019), 32–37. https://doi.org/10.1145/3378408.3378413
+
+[5] Ghada Dessouky, Tommaso Frassetto, and Ahmad-Reza Sadeghi. 2020. HYBCACHE: hybrid side-channel-resilient caches for trusted execution environments. In Proceedings of the 29th USENIX Conference on Security Symposium (SEC'20). USENIX Association, USA, Article 26, 451–468.
+
+[6] Dessouky, Ghada & Stapf, Emmanuel & Mahmoody, Pouya & Gruler, Alexander & Sadeghi, Ahmad-Reza. (2022). Chunked-Cache: On-Demand and Scalable Cache Isolation for Security Architectures. 10.14722/ndss.2022.23110. 
+
+[7] M. Nasri, T. Chantem, G. Bloom and R. M. Gerdes, "On the Pitfalls and Vulnerabilities of Schedule Randomization Against Schedule-Based Attacks," 2019 IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)
+
+[8] J. Ren et al., "REORDER++: Enhanced Randomized Real-Time Scheduling Strategy Against Side-Channel Attacks," in IEEE Transactions on Network Science and Engineering, vol. 10, no. 6, pp. 3253-3266, Nov.-Dec. 2023, doi: 10.1109/TNSE.2023.3254653.
+
+[9] Zirui Neil Zhao, Adam Morrison, Christopher W. Fletcher, and Josep Torrellas. 2023. Untangle: A Principled Framework to Design Low-Leakage, High-Performance Dynamic Partitioning Schemes. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS 2023). Association for Computing Machinery, New York, NY, USA, 771–788.
+
+[10] A. Kar, X. Liu, Y. Kim, G. Saileshwar, H. Kim and T. Krishna, "Mitigating Timing-Based NoC Side-Channel Attacks With LLC Remapping," in IEEE Computer Architecture Letters, vol. 22, no. 1, pp. 53-56, Jan.-June 2023, doi: 10.1109/LCA.2023.3276709.
+
+[11] Arkaprava Sain, Sunandan Adhikary, Ipsita Koley, and Soumyajit Dey. 2025. MAARS: Multi-Rate Attack-Aware Randomized Scheduling for Securing Real-time Systems. In Proceedings of the ACM/IEEE 16th International Conference on Cyber-Physical Systems (with CPS-IoT Week 2025) (ICCPS '25). Association for Computing Machinery, New York, NY, USA, Article 10, 1–12.
