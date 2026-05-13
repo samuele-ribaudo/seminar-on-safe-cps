@@ -14,7 +14,23 @@ The security of the real-time embedded systems, due to the increasing connectivi
 
 [5] V. Kiriansky, I. Lebedev, S. Amarasinghe, S. Devadas and J. Emer, "DAWG: A Defense Against Cache Timing Attacks in Speculative Execution Processors," 2018 51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), Fukuoka, 2018
 
-**Supervisor**: Alex Züpke (alex.zuepke@tum.de3)
+**Supervisor**: Alex Züpke (alex.zuepke@tum.de)
+
+
+## Approach: Evolutionary Timeline of CPS Security
+Our research explores the security of Real-Time Systems (RTS) by analyzing the arms race between **Schedule-Based Attacks** and their corresponding **Countermeasures**. We organize our literature review into three technical eras:
+### 1. The Foundations (Pre-2020)
+ * **Focus**: Establishing that real-time predictability is a fundamental security vulnerability.
+ * **Key Milestones**: Discovery of "ScheduLeak" and the proof that fixed-priority scheduling allows for precise timing inference.
+ * **Early Defenses**: Initial introduction of schedule randomization (e.g., *TaskShuffler*) and hardware-level cache partitioning.
+### 2. Connectivity & Modern Platforms (2020–2023)
+ * **Focus**: The transition from isolated controllers to Connected IoT and Multicore systems.
+ * **Key Milestones**: Expansion of attacks to dynamic priority systems (EDF) and network-level timing in Time-Sensitive Networking (TSN).
+ * **Advanced Defenses**: Development of hybrid cache protections and cross-layer isolation to mitigate side-channels in shared resources.
+### 3. Integrated & Future Systems (2024–Present)
+ * **Focus**: Security in "Software-Defined" architectures and autonomous systems.
+ * **Key Milestones**: Use of Digital Twins for threat injection and critiques of early randomization pitfalls.
+ * **Emerging Defenses**: Shift toward "Zero-Trust" RTOS architectures and low-leakage dynamic partitioning.
 
 
 
